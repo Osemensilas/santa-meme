@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: max-content;
+    width: 100vw;
+    font-family: "Roboto", serif;
+    background: #F5F5F5;
+    overflow-x: hidden;
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Header Begins*/
+
+#header {
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    padding: 0 40px;
+    z-index: 9;
+    background: #F5F5F5;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    height: 50px;
+    width: max-content;
+}
+
+.logo-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin: 0 2px 0 0;
+}
+
+.logo-container h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #008000;
+}
+
+.header-right {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    height: max-content;
+    width: max-content;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    height: max-content;
+    width: max-content;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px 0 0;
+    color: #008000;
+}
+
+.token-container,
+.token {
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+    border: 3px double #FFC080;
+}
+
+.token {
+    color: #000000;
+}
+
+.header-cta-container {
+    height: max-content;
+    width: max-content;
+}
+
+.cta-btn {
+    padding: 10px 5px;
+    background: #FFC080;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #2E865F;
+}
+
+
+/*Header Ends*/
+
+
+/*Hero Begins*/
+
+#home {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    margin-top: 80px;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-top-content {
+    width: 50%;
+    height: 100%;
+}
+
+.hero-top-img-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    height: 40%;
+    width: 200px;
+    transition: 0.5s ease-in-out;
+}
+
+.hero-img:hover {
+    height: 50%;
+    width: 300px;
+}
+
+.hero-top-text-container {
+    height: 50%;
+    width: 100%;
+}
+
+.hero-top-text-container p {
+    text-align: center;
+    color: #FFC080;
+    font-size: 18px;
+}
+
+.hero-bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-bottom-img-container {
+    height: 400px;
+    width: 300px;
+    border: 5px solid #FFC080;
+    border-radius: 10px;
+    padding: 20px 20px 0 20px;
+    background: #000000;
+}
+
+.hero-santa-img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Hero Ends*/
+
+
+/*story Begins*/
+
+#story {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    padding: 0 40px;
+}
+
+.story {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.story-left,
+.story-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-left-content {
+    width: 100%;
+    height: max-content;
+}
+
+.story-left-header {
+    height: max-content;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.story-left-header h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #FFC080;
+}
+
+.story-left-content {
+    height: max-content;
+    width: 100%;
+}
+
+.story-left-content p {
+    font-size: 21px;
+    color: #FFC080;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.story-img-container {
+    width: 400px;
+    height: 400px;
+}
+
+.story-img {
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+}
+
+
+/*story Ends*/
+
+
+/*Liquidity Begins*/
+
+#tokenomics {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 40px;
+}
+
+.tokenomics-header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tokenomics-header h2 {
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFC080;
+}
+
+.tokenomics {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+}
+
+.token-img-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.token-img {
+    height: 400px;
+    width: 300px;
+}
+
+.token-cards {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 0 0 50px;
+}
+
+.token-card {
+    background: #ffffff;
+    height: 100px;
+    width: 175px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 5px 0;
+    transform: rotate(5deg);
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.token-card:hover {
+    transform: rotate(0deg);
+}
+
+.token-card h3 {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.token-card p {
+    color: #FFC080;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.liquidity-line {
+    height: 50px;
+    width: 2px;
+    background: #FFC080;
+}
+
+
+/*Liquidity Ends*/
+
+
+/*How Beins*/
+
+#how-to-buy {
+    position: relative;
+    height: max-content;
+    width: 100vw;
+    padding: 0 40px;
+    z-index: 1;
+}
+
+.how-header {
+    height: max-content;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.how-header h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #FFC080;
+    text-align: center;
+}
+
+.how-content {
+    height: max-content;
+    width: 100%;
+    padding: 0 20vw;
+}
+
+.how-conteiner-left {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+}
+
+.how-conteiner-right {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.how-card {
+    height: 100px;
+    width: 350px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.token-body-conteiner {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*How Ends*/
+
+
+/*Social Begins*/
+
+#socials {
+    position: relative;
+    height: max-content;
+    width: 100vw;
+    padding: 0 40px;
+    z-index: 1;
+}
+
+.social-header {
+    height: max-content;
+    width: 100%;
+    padding: 40px;
+}
+
+.social-header h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #FFC080;
+}
+
+.social-container {
+    height: max-content;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.telegram {
+    height: max-content;
+    width: max-content;
+}
+
+.social-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+
+/*Social Ends*/
+
+
+/*Footer Begins*/
+
+#footer {
+    position: relative;
+    height: max-content;
+    width: 100vw;
+    padding: 0 40px;
+    z-index: 1;
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-right p {
+    color: #000000;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+/*Footer Ends*/

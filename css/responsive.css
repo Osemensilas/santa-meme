@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1024px) {
+    #header {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-height: 1366px) {
+    #home {
+        height: max-content;
+        padding: 50px 0;
+    }
+    .hero-top {
+        margin-bottom: 40px;
+    }
+    #story {
+        height: max-content;
+        padding: 50px 40px;
+    }
+    #tokenomics {
+        height: max-content;
+        padding: 50px 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    #home {
+        height: max-content;
+        padding: 50px 0;
+    }
+    .hero-top {
+        margin-bottom: 40px;
+    }
+    #story {
+        height: max-content;
+        padding: 50px 40px;
+    }
+    #tokenomics {
+        height: max-content;
+        padding: 50px 40px;
+    }
+    .header-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #home {
+        height: max-content;
+        padding: 50px 0;
+    }
+    .hero-top {
+        margin-bottom: 40px;
+    }
+    #story {
+        height: max-content;
+        padding: 50px 40px;
+    }
+    #tokenomics {
+        height: max-content;
+        padding: 50px 40px;
+    }
+    .header-nav {
+        display: none;
+    }
+    #header {
+        padding: 0 10px;
+    }
+    .header-left {
+        height: max-content;
+        width: max-content;
+    }
+    .logo {
+        height: 40px;
+        width: 40px;
+        margin: 0 1px 0 0;
+    }
+    .logo-container h1 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #008000;
+    }
+    .header-right {
+        display: none;
+    }
+    .story {
+        flex-direction: column;
+    }
+    .story-left,
+    .story-right {
+        width: 100%;
+    }
+    .tokenomics-header h2 {
+        font-size: 45px;
+    }
+    .tokenomics {
+        flex-direction: column;
+    }
+    .token-img-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .token-cards {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    .how-header h2 {
+        font-size: 35px;
+    }
+    .how-content {
+        padding: 0;
+    }
+    .token {
+        font-size: 12px;
+    }
+    .social-header h2 {
+        font-size: 35px;
+    }
+}
